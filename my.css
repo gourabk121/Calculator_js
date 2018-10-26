@@ -1,0 +1,45 @@
+
+
+
+
+.fullc{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.button{
+    font-size: 25px;
+    width: 50px;
+    height: 60px;
+    margin: 2px;
+    cursor: pointer;
+}
+.equal{
+    width: 224px;
+    height: 40px;
+    margin: 2px;
+}
+.textview{
+    margin-bottom: 8px;
+    height: 40px;
+    width: 224px;
+    font-size: 30px;
+    text-align: right;
+}
+.heading{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+body{
+    background: rgb(102, 102, 153);
+}
+.footer{
+    position: absolute;
+    top:90%;
+    left: 90%;
+    color: azure;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="my.css">
+  <title>Calculator</title>
+</head>
+<body>
+  <div class="fullc">
+  <div class="heading"><h4>Calculator</h4></div>
+  <form name="my">
+    <input name="text" class="textview"><br>
+
+        <input class="button" type="button" value="7" onclick="document.my.text.value+=7">
+        <input class="button" type="button" value="8" onclick="document.my.text.value+=8">
+        <input class="button" type="button" value="9" onclick="document.my.text.value+=9">
+        <input class="button" type="button" value="+" onclick="btnplus()" ><br>
+
+
+
+        <input class="button" type="button" value="4" onclick="document.my.text.value+=4">
+        <input class="button" type="button" value="5" onclick="document.my.text.value+=5">
+        <input class="button" type="button" value="6" onclick="document.my.text.value+=6">
+        <input class="button"type="button" value="-" onclick="btnmin()"><br>
+
+        <input class="button" type="button" value="1" onclick="document.my.text.value+=1">
+        <input class="button" type="button" value="2" onclick="document.my.text.value+=2">
+        <input class="button" type="button" value="3" onclick="document.my.text.value+=3">
+        <input class="button" type="button" value="*" onclick="btnmul()"><br>
+
+        <input class="button" type="button" value="0" onclick="document.my.text.value+=0">
+      <input class="button" type="button" value="." onclick="btndot()">
+      <input class="button" type="button" value="c" onclick="btnclr()">
+      <input class="button"type="button" value="/" onclick="btndiv()"><br>
+                            
+    <input class="equal" type="button" name="" value="=" onclick="document.my.text.value=eval(document.my.text.value)">
+  </form>
+</div>
+<div class="footer"><h4>Gourab Karmakar</h4></div>
+<script src="app.js">
+
+</script>
+</body>
+</html>
